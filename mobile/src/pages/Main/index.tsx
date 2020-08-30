@@ -105,7 +105,7 @@ const Main = () => {
             </CardHeader>
             <CardContent>
               <Title>Saldo disponível</Title>
-              <Cash>{visibility ? "R$ 750.000,00" : "---.---,--"} </Cash>
+              <Cash>{visibility ? "R$ 750.000,00" : "R$ ---.---,--"} </Cash>
             </CardContent>
             <CardFooter>
               <Annotation>
